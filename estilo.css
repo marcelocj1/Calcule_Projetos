@@ -3,29 +3,19 @@
     margin: 0;
 }
 
-
 header.flexbox-container1 {
     width: 100%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
-   
     background-color:#050518;
     line-height: 57px;
-    
     color: white;
     font-family: cursive;
-    
-  
-    
-   
     font-size: 20pt;
     box-shadow: 10px 10px 20px black;
     justify-content:center;
    
-    
-    
-  
 }
 
 
@@ -272,7 +262,7 @@ aside.flexbox-container3 {
     justify-content:space-evenly;
    
     box-shadow: 10px 10px 20px black;
-    margin-bottom: 1px;
+    margin-bottom: 2px;
    
    
 }
@@ -281,7 +271,7 @@ div.flexbox3 {
     width: 400px;
     height: 200px;
     background-color:#000009;
-    margin: 0.85%;
+    margin: 1%;
     line-height: 200px;
     text-align: center;
     color: white;
@@ -347,7 +337,8 @@ aside img.foto{
 
 
 footer.flexbox-container4 {
-   
+   display: flex;
+   height: auto;
     justify-content: center;
     align-items: center;
     padding: 0 10px;
@@ -359,8 +350,8 @@ footer.flexbox-container4 {
     font-size: 15px;
     width: bold;
     background-color:#000009;
-    padding: 2px;
-    line-height: 57px;
+    
+    line-height: 70px;
     box-shadow: 10px 10px 20px black;
 }
 
