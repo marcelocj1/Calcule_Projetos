@@ -22,6 +22,7 @@ header.flexbox-container1 {
     font-size: 20pt;
     box-shadow: 10px 10px 20px black;
     justify-content:center;
+   
     
     
   
@@ -64,13 +65,14 @@ main.flexbox-container2 {
    
     justify-content:space-evenly;
     box-shadow: 10px 10px 20px black;
+    margin-bottom: 1px;
     
     
 }
 
 div.flexbox2 {
     width: 180px;
-    height: 180px;
+    height: 175px;
     /*flex-basis: 180px;*/
     background-color: rgb(4, 67, 104);
     margin: 1%;
@@ -88,7 +90,7 @@ div.flexbox2 {
 
 img.ohm-calculo{
     width: 175px;
-    height: 176px;
+    height: 171px;
      padding: 1px; 
      margin-top: 1px; 
     border-radius: 8px;
@@ -99,14 +101,158 @@ img.ohm-calculo:hover {
 }
 
 img.queda-calculo{
-    width: 175px;
-    height: 176px;
+    width: 176px;
+    height: 171px;
      padding: 1px; 
      margin-top: 1px; 
     border-radius: 8px;
     -webkit-transition: all .3s ease-in;
 }
 img.queda-calculo:hover {
+    -webkit-transform: scale(1.2);
+}
+
+img.luminotecnico-calculo{
+    width: 176px;
+    height: 171px;
+     padding: 1px; 
+     margin-top: 1px; 
+    border-radius: 8px;
+    -webkit-transition: all .3s ease-in;
+}
+img.luminotecnico-calculo:hover {
+    -webkit-transform: scale(1.2);
+}
+
+img.ocupação-calculo{
+    width: 176px;
+    height: 171px;
+     padding: 1px; 
+     margin-top: 1px; 
+    border-radius: 8px;
+    -webkit-transition: all .3s ease-in;
+}
+img.ocupação-calculo:hover {
+    -webkit-transform: scale(1.2);
+}
+
+img.agrupamento-calculo{
+    width: 176px;
+    height: 171px;
+    padding: 1px; 
+    margin-top: 1px; 
+    border-radius: 8px;
+    -webkit-transition: all .3s ease-in;
+}
+img.agrupamento-calculo:hover {
+    -webkit-transform: scale(1.2);
+}
+
+img.disjuntores-calculo{
+    width: 176px;
+    height: 171px;
+    padding: 1px; 
+    margin-top: 1px; 
+    border-radius: 8px;
+    -webkit-transition: all .3s ease-in;
+}
+img.disjuntores-calculo:hover {
+    -webkit-transform: scale(1.2);
+}
+
+img.cabos-calculo{
+    width: 176px;
+    height: 171px;
+    padding: 1px; 
+    margin-top: 1px; 
+    border-radius: 8px;
+    -webkit-transition: all .3s ease-in;
+}
+img.cabos-calculo:hover {
+    -webkit-transform: scale(1.2);
+}
+
+img.eletrocalhas-calculo{
+    width: 176px;
+    height: 171px;
+    padding: 1px; 
+    margin-top: 1px; 
+    border-radius: 8px;
+    -webkit-transition: all .3s ease-in;
+}
+img.eletrocalhas-calculo:hover {
+    -webkit-transform: scale(1.2);
+}
+
+img.demanda-calculo{
+    width: 176px;
+    height: 171px;
+    padding: 1px; 
+    margin-top: 1px; 
+    border-radius: 8px;
+    -webkit-transition: all .3s ease-in;
+}
+img.demanda-calculo:hover {
+    -webkit-transform: scale(1.2);
+}
+
+img.trafo-calculo{
+    width: 176px;
+    height: 171px;
+    padding: 1px; 
+    margin-top: 1px; 
+    border-radius: 8px;
+    -webkit-transition: all .3s ease-in;
+}
+img.trafo-calculo:hover {
+    -webkit-transform: scale(1.2);
+}
+
+img.capacitor-calculo{
+    width: 176px;
+    height: 171px;
+    padding: 1px; 
+    margin-top: 1px; 
+    border-radius: 8px;
+    -webkit-transition: all .3s ease-in;
+}
+img.capacitor-calculo:hover {
+    -webkit-transform: scale(1.2);
+}
+
+img.curto-calculo{
+    width: 176px;
+    height: 171px;
+    padding: 1px; 
+    margin-top: 1px; 
+    border-radius: 8px;
+    -webkit-transition: all .3s ease-in;
+}
+img.curto-calculo:hover {
+    -webkit-transform: scale(1.2);
+}
+
+img.malha-terra-calculo{
+    width: 176px;
+    height: 171px;
+    padding: 1px; 
+    margin-top: 1px; 
+    border-radius: 8px;
+    -webkit-transition: all .3s ease-in;
+}
+img.malha-terra-calculo:hover {
+    -webkit-transform: scale(1.2);
+}
+
+img.tarifa-calculo{
+    width: 176px;
+    height: 171px;
+    padding: 1px; 
+    margin-top: 1px; 
+    border-radius: 8px;
+    -webkit-transition: all .3s ease-in;
+}
+img.tarifa-calculo:hover {
     -webkit-transform: scale(1.2);
 }
 
@@ -126,12 +272,13 @@ aside.flexbox-container3 {
     justify-content:space-evenly;
    
     box-shadow: 10px 10px 20px black;
+    margin-bottom: 1px;
    
    
 }
 
 div.flexbox3 {
-    width: 600px;
+    width: 400px;
     height: 200px;
     background-color:#000009;
     margin: 0.85%;
@@ -143,6 +290,61 @@ div.flexbox3 {
     border-radius: 9px;
     box-shadow: 3px 3px 8px rgb(255, 254, 254);
 }
+
+img.coordenograma-calculo{
+    width: 393px;
+    height: 195px;
+    padding: 3px;
+    border-radius: 9px;
+    -webkit-transition: all .3s ease-in;
+}
+img.coordenograma-calculo:hover {
+    -webkit-transform: scale(1.2);
+}
+
+aside img.foto{
+   margin-top: 3px;    
+   position: absolute;
+   right: 1098px;
+    width: 393px;
+    height: 195px;
+    border-radius: 9px;
+    opacity: 0;
+    animation-name: animacao;
+    animation-duration: 36s;
+    animation-iteration-count: infinite;
+   
+}
+ 
+ @keyframes animacao {
+     15% {
+         opacity: 1;
+        
+     }
+     50% {
+         opacity: 0;
+     }
+ }
+ 
+ .foto:nth-child(1){
+   
+ }
+ .foto:nth-child(2){
+     animation-delay: 5s;
+ }
+ .foto:nth-child(3){
+     animation-delay: 10s;
+ }
+ .foto:nth-child(4){
+     animation-delay: 15s;
+ }
+ .foto:nth-child(5){
+     animation-delay: 22s;
+ }
+ .foto:nth-child(6){
+     animation-delay: 27s;
+ }
+
 
 footer.flexbox-container4 {
    
@@ -163,15 +365,3 @@ footer.flexbox-container4 {
 }
 
 
-/*div.flexbox-container {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    background-color: rgb(255, 0, 128);
-    justify-content:center;
-  
-    
-   
-}*/
