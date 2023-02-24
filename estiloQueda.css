@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #050518;
+     
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-family: cursive;
+    background-color: white;
+    padding: 3px;
+}
+
+header.flexbox-container1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#050518;
+    line-height: 57px;
+    color: white;
+    font-family: cursive;
+    font-size: 20pt;
+    box-shadow: 10px 10px 20px black;
+    justify-content:center;
+
+}
+
+img.lampada-apagada {
+ 
+    width: 42px;
+    position: absolute;
+   
+}
+
+main.flexbox-container2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+    font-family: cursive;
+   
+    justify-content:space-evenly;
+    box-shadow: 10px 10px 20px black;
+    margin-bottom: 1px;
+   
+}
+
+div.flexbox2 {
+    width: 680px;
+    height: 300px;
+    text-align: justify;
+    background-color:  rgb(4, 67, 104);
+    margin: 1%;
+    padding: 8px;
+   
+    
+    color: white;
+    font-family: cursive;
+    border: 3px solid white;
+    border-radius: 9px;
+    box-shadow: 3px 3px 8px #050518;
+  
+   }
+
+
+
+aside.flexbox-container3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color:white;
+    justify-content:space-evenly;
+    box-shadow: 10px 10px 20px black;
+    margin-bottom: 2px;
+      
+}
+
+div.flexbox3 {
+    width: 680px;
+    height: 230px;
+    background-color:#000009;
+    margin: 1%;
+    padding: 8px;
+    
+    color: white;
+    font-family: cursive;
+    border: 2px solid white;
+    border-radius: 9px;
+    box-shadow: 3px 3px 8px rgb(4, 67, 104);
+}
+
+footer.flexbox-container4 {
+   display: flex;
+   height: auto;
+   flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 15pt;
+    color: aliceblue;
+    text-align: center;
+    font-size: 15px;
+    width: bold;
+    background-color:#000009;
+    box-shadow: 10px 10px 20px black;
+}
+
+
