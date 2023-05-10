@@ -74,8 +74,9 @@ main.flexbox-container2 {
 div.flexbox2 {
     width: 180px;
     height: 175px;
-    /*flex-basis: 180px;*/
-    background-color: rgb(4, 67, 104);
+    /*flex-basis: 180px;
+    background-color: rgb(4, 67, 104);*/
+    background-color:#000009;
     margin: 1%;
     line-height: 170px;
     align-items: center;
