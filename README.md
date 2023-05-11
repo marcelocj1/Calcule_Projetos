@@ -1,6 +1,6 @@
 # Calcule_Projetos
 
-Pagina pessoal com cálculos para projetos elétricos
+Pagina com cálculos para projetos elétricos
 
 <br>
 <img src="imagens/TELA.png">
